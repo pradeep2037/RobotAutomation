@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5.1 (Python 3.13.17 on win32)" generated="2026-11-22T17:50:44.829978" rpa="false" schemaversion="5">
+<suite id="s1" name="AutomationProject" source="C:\Users\prade\PycharmProjects\AutomationProject">
+<suite id="s1-s1" name="TestCases" source="C:\Users\prade\PycharmProjects\AutomationProject\TestCases">
+<suite id="s1-s1-s1" name="Radio&amp;CheckButtons" source="C:\Users\prade\PycharmProjects\AutomationProject\TestCases\Radio&amp;CheckButtons.robot">
+<test id="s1-s1-s1-t1" name="Testing Check Boxes" line="22">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-11-22T17:50:45.328861" level="INFO">Opening browser 'chrome' to base url 'https://practice.expandtesting.com/checkboxes'.</msg>
+<arg>https://practice.expandtesting.com/checkboxes</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-11-22T17:50:45.328613" elapsed="4.648845"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-11-22T17:50:49.978001" elapsed="0.068556"/>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>//label[@for='checkbox1']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" start="2026-11-22T17:50:50.047374" elapsed="0.285646"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-11-22T17:50:50.334674" level="INFO">Clicking element '//label[@for='checkbox1']'.</msg>
+<msg time="2026-11-22T17:50:51.670504" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-11-22T17:50:51.671038" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;label class="form-check-label" for="checkbox1"&gt;...&lt;/label&gt; is not clickable at point (296, 681). Other element would receive the click: &lt;iframe id="aswift_5" name="aswift_5" style="min-height: auto; max-height: none; min-width: auto; max-width: none; width: 1005px !important; display: block; margin: 0px auto; height: 204px !important;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="100%" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20261118/r20190131/zrt_lookup_fy2021.html#RS-1-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-1056034821646296&amp;amp;fa=1&amp;amp;ifi=6&amp;amp;uci=a!6&amp;amp;btvi=2" data-google-container-id="a!6" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CNOAnI_Im5gDFevBOAYdepsHJg" data-load-complete="true"&gt;&lt;/iframe&gt;
+  (Session info: chrome=157.0.8103.79); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	(No symbol) [0x7ff72ab7d655]
+	(No symbol) [0x7ff72aa74790]
+	(No symbol) [0x7ff72a8e2fb3]
+	(No symbol) [0x7ff72b12c0d2]
+	(No symbol) [0x7ff72b12a6f3]
+	(No symbol) [0x7ff72b128647]
+	(No symbol) [0x7ff72b127dce]
+	(No symbol) [0x7ff72b11c9fa]
+	(No symbol) [0x7ff72b1390da]
+	(No symbol) [0x7ff72b11c439]
+	(No symbol) [0x7ff72b11c3d0]
+	(No symbol) [0x7ff72a916bf1]
+	(No symbol) [0x7ff72a8fc109]
+	(No symbol) [0x7ff72a8fd433]
+	(No symbol) [0x7ff72b017041]
+	(No symbol) [0x7ff72b035c76]
+	(No symbol) [0x7ff72b02c340]
+	(No symbol) [0x7ff72acac9be]
+	(No symbol) [0x7ff72aa82fa5]
+	(No symbol) [0x7ff72aa7e2d4]
+	(No symbol) [0x7ff72aa7e464]
+	(No symbol) [0x7ff72aa6731c]
+	(No symbol) [0x7ffbe471dda7]
+	(No symbol) [0x7ffbe56fee4c]
+</msg>
+<arg>//label[@for='checkbox1']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2026-11-22T17:50:50.334034" elapsed="1.348897">ElementClickInterceptedException: Message: element click intercepted: Element &lt;label class="form-check-label" for="checkbox1"&gt;...&lt;/label&gt; is not clickable at point (296, 681). Other element would receive the click: &lt;iframe id="aswift_5" name="aswift_5" style="min-height: auto; max-height: none; min-width: auto; max-width: none; width: 1005px !important; display: block; margin: 0px auto; height: 204px !important;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="100%" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20261118/r20190131/zrt_lookup_fy2021.html#RS-1-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-1056034821646296&amp;amp;fa=1&amp;amp;ifi=6&amp;amp;uci=a!6&amp;amp;btvi=2" data-google-container-id="a!6" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CNOAnI_Im5gDFevBOAYdepsHJg" data-load-complete="true"&gt;&lt;/iframe&gt;
+  (Session info: chrome=157.0.8103.79); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	(No symbol) [0x7ff72ab7d655]
+    [ Message content over the limit has been removed. ]
+	(No symbol) [0x7ff72b12a6f3]
+	(No symbol) [0x7ff72b128647]
+	(No symbol) [0x7ff72b127dce]
+	(No symbol) [0x7ff72b11c9fa]
+	(No symbol) [0x7ff72b1390da]
+	(No symbol) [0x7ff72b11c439]
+	(No symbol) [0x7ff72b11c3d0]
+	(No symbol) [0x7ff72a916bf1]
+	(No symbol) [0x7ff72a8fc109]
+	(No symbol) [0x7ff72a8fd433]
+	(No symbol) [0x7ff72b017041]
+	(No symbol) [0x7ff72b035c76]
+	(No symbol) [0x7ff72b02c340]
+	(No symbol) [0x7ff72acac9be]
+	(No symbol) [0x7ff72aa82fa5]
+	(No symbol) [0x7ff72aa7e2d4]
+	(No symbol) [0x7ff72aa7e464]
+	(No symbol) [0x7ff72aa6731c]
+	(No symbol) [0x7ffbe471dda7]
+	(No symbol) [0x7ffbe56fee4c]</status>
+</kw>
+<kw name="Unselect Checkbox" owner="SeleniumLibrary">
+<arg>checkbox2</arg>
+<doc>Removes the selection of checkbox identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-11-22T17:50:51.683824" elapsed="0.000088"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses execution for the given time.</doc>
+<status status="NOT RUN" start="2026-11-22T17:50:51.684427" elapsed="0.000092"/>
+</kw>
+<status status="FAIL" start="2026-11-22T17:50:45.327279" elapsed="6.358116">ElementClickInterceptedException: Message: element click intercepted: Element &lt;label class="form-check-label" for="checkbox1"&gt;...&lt;/label&gt; is not clickable at point (296, 681). Other element would receive the click: &lt;iframe id="aswift_5" name="aswift_5" style="min-height: auto; max-height: none; min-width: auto; max-width: none; width: 1005px !important; display: block; margin: 0px auto; height: 204px !important;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="100%" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20261118/r20190131/zrt_lookup_fy2021.html#RS-1-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-1056034821646296&amp;amp;fa=1&amp;amp;ifi=6&amp;amp;uci=a!6&amp;amp;btvi=2" data-google-container-id="a!6" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CNOAnI_Im5gDFevBOAYdepsHJg" data-load-complete="true"&gt;&lt;/iframe&gt;
+  (Session info: chrome=157.0.8103.79); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	(No symbol) [0x7ff72ab7d655]
+    [ Message content over the limit has been removed. ]
+	(No symbol) [0x7ff72b12a6f3]
+	(No symbol) [0x7ff72b128647]
+	(No symbol) [0x7ff72b127dce]
+	(No symbol) [0x7ff72b11c9fa]
+	(No symbol) [0x7ff72b1390da]
+	(No symbol) [0x7ff72b11c439]
+	(No symbol) [0x7ff72b11c3d0]
+	(No symbol) [0x7ff72a916bf1]
+	(No symbol) [0x7ff72a8fc109]
+	(No symbol) [0x7ff72a8fd433]
+	(No symbol) [0x7ff72b017041]
+	(No symbol) [0x7ff72b035c76]
+	(No symbol) [0x7ff72b02c340]
+	(No symbol) [0x7ff72acac9be]
+	(No symbol) [0x7ff72aa82fa5]
+	(No symbol) [0x7ff72aa7e2d4]
+	(No symbol) [0x7ff72aa7e464]
+	(No symbol) [0x7ff72aa6731c]
+	(No symbol) [0x7ffbe471dda7]
+	(No symbol) [0x7ffbe56fee4c]</status>
+</test>
+<status status="FAIL" start="2026-11-22T17:50:44.881104" elapsed="6.807067"/>
+</suite>
+<status status="FAIL" start="2026-11-22T17:50:44.879796" elapsed="6.809761"/>
+</suite>
+<status status="FAIL" start="2026-11-22T17:50:44.831780" elapsed="6.860206"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="AutomationProject" id="s1" pass="0" fail="1" skip="0">AutomationProject</stat>
+<stat name="TestCases" id="s1-s1" pass="0" fail="1" skip="0">AutomationProject.TestCases</stat>
+<stat name="Radio&amp;CheckButtons" id="s1-s1-s1" pass="0" fail="1" skip="0">AutomationProject.TestCases.Radio&amp;CheckButtons</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
