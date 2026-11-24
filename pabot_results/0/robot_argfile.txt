@@ -1,0 +1,18 @@
+--name Suites
+--suite Suites.Login
+--variable CALLER_ID:56b4be6d27754748ab38bc19705ae6f3
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:1
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:0
+--variable PABOTLASTLEVEL:Suites.Login
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\0
+--consolecolors off
+--consolemarkers off
+ParallelTestCases\Login.robot
+ParallelTestCases\WebTables.robot

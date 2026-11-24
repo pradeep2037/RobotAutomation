@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5.1 (Python 3.13.17 on win32)" generated="2026-11-24T12:17:16.187714" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Login" source="C:\Users\prade\PycharmProjects\AutomationProject\ParallelTestCases\Login.robot">
+<test id="s1-s1-t1" name="LoginTest" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-11-24T12:17:16.675634" level="INFO">Opening browser 'chrome' to base url 'https://adactinhotelapp.com/'.</msg>
+<msg time="2026-11-24T12:17:19.492078" level="WARN">Metadata file C:\Users\prade\.cache\selenium\se-metadata.json cannot be parsed: EOF while parsing a string at line 25 column 14. Using empty metadata</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-11-24T12:17:16.675374" elapsed="5.721347"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-11-24T12:17:22.396982" elapsed="0.035424"/>
+</kw>
+<kw name="logIntoApplication">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-11-24T12:17:22.436314" level="INFO">Typing text 'pradeep2000' into text field '//input[@id="username"]'.</msg>
+<arg>//input[@id="username"]</arg>
+<arg>pradeep2000</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-11-24T12:17:22.433557" elapsed="0.218421"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2026-11-24T12:17:22.653085" level="INFO">Typing password into text field '//input[@id="password"]'.</msg>
+<msg time="2026-11-24T12:17:22.692967" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>//input[@id="password"]</arg>
+<arg>CJ8S2F</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-11-24T12:17:22.652544" elapsed="0.088183"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-11-24T12:17:22.741870" level="INFO">Clicking element '//input[@type='Submit']'.</msg>
+<arg>//input[@type='Submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-11-24T12:17:22.741242" elapsed="0.842021"/>
+</kw>
+<status status="PASS" start="2026-11-24T12:17:22.432978" elapsed="1.150506"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-11-24T12:17:23.583900" elapsed="2.238286"/>
+</kw>
+<status status="PASS" start="2026-11-24T12:17:16.674174" elapsed="9.148438"/>
+</test>
+<status status="PASS" start="2026-11-24T12:17:16.241998" elapsed="9.617597"/>
+</suite>
+<status status="PASS" start="2026-11-24T12:17:16.190205" elapsed="9.670966"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
+<stat name="Login" id="s1-s1" pass="1" fail="0" skip="0">Suites.Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-11-24T12:17:19.492078" level="WARN">Metadata file C:\Users\prade\.cache\selenium\se-metadata.json cannot be parsed: EOF while parsing a string at line 25 column 14. Using empty metadata</msg>
+</errors>
+</robot>

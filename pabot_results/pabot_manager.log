@@ -1,0 +1,26 @@
+[INFO]    Initialized logging in .\pabot_results
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 started.
+[DEBUG]   Storing .pabotsuitenames file
+[DEBUG]   2026-11-24 12:17:15.594066 [PID:9996] [0] [ID:1] EXECUTING Suites.WebTables
+[DEBUG]   2026-11-24 12:17:15.594670 [PID:16828] [1] [ID:0] EXECUTING Suites.Login
+[DEBUG]   2026-11-24 12:17:20.660792 [PID:16828] [1] [ID:0] still running Suites.Login after 5.0s
+[DEBUG]   2026-11-24 12:17:20.660913 [PID:9996] [0] [ID:1] still running Suites.WebTables after 5.0s
+[INFO]    2026-11-24 12:17:26.551241 [PID:16828] [1] [ID:0] PASSED Suites.Login in 11.0 seconds
+[DEBUG]   2026-11-24 12:17:31.230483 [PID:9996] [0] [ID:1] still running Suites.WebTables after 15.0s
+[INFO]    2026-11-24 12:17:32.564423 [PID:9996] [0] [ID:1] PASSED Suites.WebTables in 17.0 seconds
+[INFO]    2 tests, 2 passed, 0 failed, 0 skipped.
+[INFO]    ===================================================
+[INFO]    Output:  C:\Users\prade\PycharmProjects\AutomationProject\output.xml
+[INFO]    Log:     
+[INFO]    C:\Users\prade\PycharmProjects\AutomationProject\log.html
+[INFO]    
+[INFO]    Report:  
+[INFO]    C:\Users\prade\PycharmProjects\AutomationProject\report.html
+[INFO]    
+[DEBUG]   Finalizing Pabot execution...
+[DEBUG]   Stopping PabotLib process
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 stopped.
+[DEBUG]   PabotLib process stopped
+[INFO]    Total testing: 28.0 seconds
+[INFO]    Elapsed time:  19.2 seconds
+[DEBUG]   Logs flushed successfully.

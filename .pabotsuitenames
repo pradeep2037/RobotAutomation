@@ -1,0 +1,6 @@
+datasources:c56a5cd3d6e91adb3fd94f2e26ddccc362ff75e7
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:a9f8f5d13d2f3593b88f3e85731c08d246af8cc9
+--suite Suites.Login
+--suite Suites.WebTables
